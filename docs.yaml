@@ -1,0 +1,18 @@
+site:
+  title: DI Whitepaper
+  structure:
+    - type: space
+      key: di-whitepaper-en
+      title: DI Whitepaper
+      path: /
+      default: true
+      content:
+        directory: en
+        language: en
+    - type: space
+      key: di-whitepaper-cn
+      title: DI 白皮书
+      path: /zh
+      content:
+        directory: cn
+        language: zh
