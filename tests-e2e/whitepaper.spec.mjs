@@ -1,5 +1,31 @@
 import { expect, test } from "@playwright/test"
 
+test("mobile landing title is restrained and version starts below the cover", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "mobile", "mobile-only layout")
+  for (const width of [320, 390, 430]) {
+    await page.setViewportSize({ width, height: 844 })
+    for (const route of ["/", "/zh/"]) {
+      await page.goto(route)
+      const layout = await page.evaluate(() => {
+        const heading = document.querySelector(".landing-copy h1")
+        const cover = document.querySelector(".landing-heading").getBoundingClientRect()
+        const version = document.querySelector(".landing-source p").getBoundingClientRect()
+        return {
+          titleSize: parseFloat(getComputedStyle(heading).fontSize),
+          titleLeft: heading.getBoundingClientRect().left,
+          versionLeft: version.left,
+          gap: version.top - cover.bottom,
+          overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+        }
+      })
+      expect(layout.titleSize).toBeLessThanOrEqual(44)
+      expect(layout.gap).toBeGreaterThanOrEqual(23)
+      expect(Math.abs(layout.titleLeft - layout.versionLeft)).toBeLessThanOrEqual(1)
+      expect(layout.overflow).toBeLessThanOrEqual(1)
+    }
+  }
+})
+
 test("English document navigation, anchors, search, and language pairing work", async ({ page }) => {
   await page.goto("/")
   await expect(page.getByRole("heading", { level: 1, name: "DI Whitepaper (English Version)" })).toBeVisible()

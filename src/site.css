@@ -1191,6 +1191,10 @@ html[lang="zh-CN"] .document-content {
 }
 
 @media (max-width: 620px) {
+  body {
+    min-width: 0;
+  }
+
   .brand img {
     width: 32px;
     height: 32px;
@@ -1237,25 +1241,65 @@ html[lang="zh-CN"] .document-content {
   }
 
   .landing-hero {
-    min-height: 570px;
+    --landing-cover-height: clamp(240px, 70vw, 300px);
+    min-height: 0;
   }
 
   .landing-hero::before {
-    background: linear-gradient(0deg, #050505 8%, rgba(0, 0, 0, 0.62) 58%, rgba(0, 0, 0, 0.08) 100%);
+    inset: 0 0 auto;
+    height: var(--landing-cover-height);
+    background: linear-gradient(0deg, #050505 0%, rgba(0, 0, 0, 0.72) 48%, rgba(0, 0, 0, 0.08) 100%);
+  }
+
+  .landing-visual {
+    inset: 0 0 auto;
+    height: var(--landing-cover-height);
   }
 
   .landing-visual img {
-    height: 52%;
+    height: 100%;
     object-position: 69% center;
   }
 
   .landing-copy {
+    display: grid;
     width: 100%;
-    padding: 26px 22px 28px;
+    padding: 0;
   }
 
-  .landing-copy h1 {
-    font-size: clamp(50px, 17vw, 70px);
+  .landing-heading {
+    display: flex;
+    min-height: var(--landing-cover-height);
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px 20px;
+  }
+
+  .landing-heading .eyebrow {
+    margin-bottom: 16px;
+  }
+
+  .landing-copy h1,
+  html[lang="zh-CN"] .landing-copy h1 {
+    font-size: clamp(34px, 9.5vw, 44px);
+    letter-spacing: -0.025em;
+    line-height: 1.08;
+  }
+
+  .landing-source {
+    max-width: none;
+    margin-top: 0;
+    padding: 24px 20px 0;
+    font-size: 16px;
+  }
+
+  .landing-source p {
+    margin-bottom: 12px;
+  }
+
+  .landing-copy .primary-action {
+    justify-self: start;
+    margin: 14px 20px 28px;
   }
 
   .chapter-grid a {

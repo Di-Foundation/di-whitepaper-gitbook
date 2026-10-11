@@ -8,6 +8,13 @@ import { COPY, DIST, LANGUAGES, ROOT, outputFileForRoute, parseSummary, resolveC
 
 const summaries = await Promise.all(LANGUAGES.map(parseSummary))
 
+test("both landing pages separate the cover heading from version and introduction", async () => {
+  for (const entries of summaries) {
+    const html = await readFile(outputFileForRoute(entries[0].route), "utf8")
+    assert.match(html, /<div class="landing-heading">[\s\S]*?<\/h1>\s*<\/div>\s*<div class="landing-source">/)
+  }
+})
+
 test("every page declares the official DI favicon and the fallback serves the same asset", async () => {
   for (const entry of summaries.flat()) {
     const html = await readFile(outputFileForRoute(entry.route), "utf8")

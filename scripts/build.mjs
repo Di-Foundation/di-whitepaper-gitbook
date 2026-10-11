@@ -205,8 +205,10 @@ function landingMarkup(document, body, entries, copy) {
     <section class="landing-hero">
       <div class="landing-visual"><img src="/content/assets/di-home-banner.png" alt="" width="1500" height="500"></div>
       <div class="landing-copy">
-        <p class="eyebrow"><span></span>${escapeHtml(copy.documentLabel)}</p>
-        <h1>${escapeHtml(document.title)}</h1>
+        <div class="landing-heading">
+          <p class="eyebrow"><span></span>${escapeHtml(copy.documentLabel)}</p>
+          <h1>${escapeHtml(document.title)}</h1>
+        </div>
         <div class="landing-source">${body}</div>
         <a class="primary-action" href="${firstChapter.route}">${escapeHtml(copy.readChapter)} ${arrowIcon()}</a>
       </div>
