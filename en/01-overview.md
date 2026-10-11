@@ -24,7 +24,7 @@ The next stage will establish the first Agent network with seed users from 2,000
 
 DI has completed product development. Product launch, Personal Agents and the first Agent network follow in sequence, with Agent and network capabilities opening in subsequent roadmap stages.
 
-Updated October 11, 2026.
+Updated October 12, 2026.
 
 ## Reading paths
 

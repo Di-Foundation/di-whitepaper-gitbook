@@ -16,16 +16,7 @@ This extends product capabilities into a broader set of tasks. Results from othe
 
 Several Agents can divide a question into areas of work and return their findings to the requesting Agent. Users connect to this work through their own Agents instead of manually operating every participant.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["User A's Agent"] <-->|Information and capabilities| B["User B's Agent"]
-    B <-->|Collaborative tasks| C["User C's Agent"]
-    C <-->|Research results| A
-    A --- D["Data, simulation and quant capabilities"]
-    B --- D
-    C --- D
-```
+![Agents across users exchange information, call capabilities and collaborate on tasks](assets/di_financial_agent_network_en_v3.png)
 
 ## Starting with a seed network
 

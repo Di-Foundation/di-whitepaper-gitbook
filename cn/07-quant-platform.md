@@ -14,15 +14,7 @@ DI 的量化平台连接策略研究、产品创建与产品使用。平台提�
 
 创建者通过策略说明、适用条件与风险信息介绍产品，并持续跟踪产品表现。使用者可以据此了解策略逻辑，评估是否适合自己的需求。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["策略想法"] --> B["创建工具与策略验证"]
-    B --> C["用户发布的量化产品"]
-    D["DI 自有量化产品"] --> M["量化产品市场"]
-    C --> M
-    M --> U["其他用户查看与使用"]
-```
+![DI 自有产品与用户策略共同进入量化产品市场](assets/di_quant_platform_cn_v3.png)
 
 ## 量化产品市场
 

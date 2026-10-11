@@ -8,6 +8,7 @@
 - Research evidence, process receipts and on-chain version proof.
 - DI utility, business model, product roadmap, team and partners.
 - English and Simplified Chinese editions with 17 chapters each.
+- Matching bilingual illustrations for product architecture, Event Engine workflow, quant products, Agent communication, version proof, business revenue and roadmap.
 
 ## v1.0 — 2026-08-03
 

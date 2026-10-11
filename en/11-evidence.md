@@ -16,14 +16,7 @@ A user first receives the report and its research records, then chooses whether 
 
 The report and private discussion remain off-chain. The on-chain record contains proof associated with the selected version, with the corresponding transaction or record information available for verification.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["Report and research records · Off-chain"] --> B["Specific version"]
-    B --> C["User consent"]
-    C --> D["Version proof · On-chain"]
-    B -.-> E["Report and private discussion stay off-chain"]
-```
+![Research and receipts remain off-chain; user consent authorizes on-chain proof of a selected version](assets/di_research_proof_en_v3.png)
 
 ## Valuable contributions
 

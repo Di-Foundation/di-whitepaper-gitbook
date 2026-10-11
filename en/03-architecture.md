@@ -2,17 +2,7 @@
 
 DI’s architecture connects a common model foundation, three product capabilities, and subsequent Personal Agent and Agent network stages. The model supplies the shared foundation; products perform specific work; Personal Agents organize capabilities around user tasks; the network connects Agents belonging to different users.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart BT
-    M["Crypto-native Model and data foundation"] --> D["Data Dashboard"]
-    M --> E["Event Engine"]
-    M --> Q["Quant Platform"]
-    D --> P["Personal Agents · After launch"]
-    E --> P
-    Q --> P
-    P --> N["Agent network · Seed-user phase"]
-```
+![The model foundation, three product capabilities, Personal Agents and the financial Agent network](assets/di_product_architecture_en_v3.png)
 
 ## One foundation, three products
 

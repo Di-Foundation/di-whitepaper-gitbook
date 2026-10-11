@@ -2,7 +2,7 @@
 
 Version: v2.0
 
-Updated: October 11, 2026
+Updated: October 12, 2026
 
 DI (Decentralized Intelligence) is building a user-owned financial Agent network on a Crypto-native Model. The Data Dashboard, Event Engine and Quant Platform provide the product foundation; Personal Agents and an interconnected network follow the product roadmap.
 

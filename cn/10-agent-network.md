@@ -16,16 +16,7 @@ Agent 可以围绕任务调用其他 Agent 提供的数据、研究或策略能�
 
 多个 Agent 可以围绕同一问题分工，分别研究不同方面，再将结果返回给发起任务的 Agent。用户通过自己的 Agent 接入这些工作，而不是逐个操作网络中的所有节点。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["用户 A 的 Agent"] <-->|信息与能力| B["用户 B 的 Agent"]
-    B <-->|协作任务| C["用户 C 的 Agent"]
-    C <-->|研究结果| A
-    A --- D["数据、推演与量化能力"]
-    B --- D
-    C --- D
-```
+![不同用户的 Agent 交换信息、调用能力并协作完成任务](assets/di_financial_agent_network_cn_v3.png)
 
 ## 从种子网络开始
 

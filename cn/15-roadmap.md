@@ -26,11 +26,4 @@ DI 的发展顺序是：完成产品构建，产品上线后形成个人 Agent�
 
 创始 NFT 对应的种子用户将参与初期网络建设，围绕真实任务建立信息交换与能力协作。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["01 产品构建 · 已完成"] --> B["产品上线"]
-    B --> C["02 个人 Agent"]
-    C --> D["03 首个 Agent 网络"]
-    N["2,000 个创始 NFT 对应的种子用户"] --> D
-```
+![产品构建已完成，上线后形成个人 Agent，再建立种子网络](assets/di_product_roadmap_cn_v3.png)

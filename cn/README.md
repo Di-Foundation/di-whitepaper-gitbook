@@ -2,7 +2,7 @@
 
 版本：v2.0
 
-更新日期：2026 年 10 月 11 日
+更新日期：2026 年 10 月 12 日
 
 DI（Decentralized Intelligence）正在构建用户拥有的金融智能体网络。Crypto-native Model 为数据看板、Event Engine 与量化平台提供共同基础，再沿产品发展路线形成个人 Agent 和互通的 Agent 网络。
 

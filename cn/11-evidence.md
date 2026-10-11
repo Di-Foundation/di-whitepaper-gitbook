@@ -16,14 +16,7 @@ DI 将研究内容、过程记录与链上凭证分开处理。这样既能让�
 
 报告正文和私有讨论保留在链下。链上只记录指定版本的凭证，并结合相应交易或记录信息供核验。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["报告与研究记录 · 链下"] --> B["指定版本"]
-    B --> C["用户授权"]
-    C --> D["版本凭证 · 链上"]
-    B -.-> E["报告正文与私有讨论仍在链下"]
-```
+![研究内容与收据留在链下，用户授权后为指定版本存证](assets/di_research_proof_cn_v3.png)
 
 ## 有价值的贡献
 

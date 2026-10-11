@@ -12,15 +12,7 @@ Holding DI provides dashboard access; business revenue comes from service paymen
 
 ## Product usage and buybacks
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    U["Product usage"] --> S["Simulation and Agent service payments"]
-    U --> Q["Quant product profit sharing"]
-    S --> R["Business revenue"]
-    Q --> R
-    R --> B["A portion funds DI buybacks"]
-```
+![Service fees and quant profit sharing generate revenue; a portion funds DI buybacks](assets/di_business_revenue_en_v3.png)
 
 This mechanism connects demand for products with business revenue. Continued usefulness, users’ willingness to use services and the ability of quant products to generate shareable profits affect that revenue.
 

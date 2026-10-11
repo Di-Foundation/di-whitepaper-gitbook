@@ -20,16 +20,7 @@ Event Engine 从一个关于市场、宏观或加密资产的问题开始，通�
 
 过程收据记录研究步骤，引用提供论点依据，用户可以结合两者回看报告的形成过程。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart TD
-    A["用户问题"] --> B["选择 AI 分析视角"]
-    B --> C["独立观点与交叉讨论"]
-    C --> D["证据、来源与过程收据"]
-    D --> E["推演报告"]
-    E --> F["用户授权"]
-    F --> G["指定报告版本的链上凭证"]
-```
+![从提出问题、多视角研究到证据收据、报告与授权存证](assets/di_event_engine_workflow_cn_v3.png)
 
 ## 推演报告
 

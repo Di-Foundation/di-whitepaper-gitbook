@@ -14,15 +14,7 @@ Strategy creation tools help users express ideas as rules that can be researched
 
 Creators present their products through strategy descriptions, applicable conditions and risk information, and monitor performance over time. Users can review this information to understand a strategy and assess whether it fits their needs.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    A["Strategy idea"] --> B["Creation tools and validation"]
-    B --> C["User-published quant products"]
-    D["DI quant products"] --> M["Quant product marketplace"]
-    C --> M
-    M --> U["Other users review and use products"]
-```
+![DI products and user-created strategies in the quant product marketplace](assets/di_quant_platform_en_v3.png)
 
 ## The product marketplace
 

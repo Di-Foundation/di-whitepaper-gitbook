@@ -20,16 +20,7 @@ Citations retain their sources and distinguish facts, inferences and unverified 
 
 Process receipts record research steps, while citations identify supporting evidence. Together, they let users review how a report developed.
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart TD
-    A["User question"] --> B["Choose AI perspectives"]
-    B --> C["Independent views and cross-discussion"]
-    C --> D["Evidence, sources and process receipts"]
-    D --> E["Research report"]
-    E --> F["User consent"]
-    F --> G["On-chain proof of a specific report version"]
-```
+![From a question and AI perspectives to evidence, process receipts, a report and consent-based version proof](assets/di_event_engine_workflow_en_v3.png)
 
 ## The research report
 

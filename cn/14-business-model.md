@@ -12,15 +12,7 @@ Event Engine 的推演服务、个人 Agent 的任务与工具调用，以及网
 
 ## 产品使用与回购
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart LR
-    U["产品使用"] --> S["推演与 Agent 服务付费"]
-    U --> Q["量化产品利润分成"]
-    S --> R["业务收入"]
-    Q --> R
-    R --> B["部分收入用于 DI 回购"]
-```
+![服务使用与量化利润分成产生收入，部分收入用于 DI 回购](assets/di_business_revenue_cn_v3.png)
 
 这个机制将产品需求与商业收入连接起来。产品是否持续有用、用户是否愿意使用，以及量化产品能否产生可分成利润，都会影响收入。
 

@@ -2,17 +2,7 @@
 
 DI 的架构围绕共同的模型基础、三类产品能力，以及后续的个人 Agent 与 Agent 网络展开。模型提供共享基础，产品提供具体工作能力，个人 Agent 将能力组织到用户任务中，网络再连接不同用户的 Agent。
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
-flowchart BT
-    M["Crypto-native Model 与数据基础"] --> D["数据看板"]
-    M --> E["Event Engine"]
-    M --> Q["量化平台"]
-    D --> P["个人 Agent · 产品上线后"]
-    E --> P
-    Q --> P
-    P --> N["Agent 网络 · 种子用户阶段"]
-```
+![模型基础、三类产品、个人 Agent 与金融 Agent 网络](assets/di_product_architecture_cn_v3.png)
 
 ## 共同基础，三类产品
 

@@ -15,7 +15,7 @@ The whitepaper covers the Data Dashboard, Event Engine, Quant Platform, Dynamic 
 - [Product Roadmap](./en/15-roadmap.md)
 - [Team, Governance & Partners](./en/16-team.md)
 
-Version: v2.0. Product and coverage information as of October 11, 2026.
+Version: v2.0. Updated October 12, 2026. Product and coverage figures are dated October 11, 2026.
 
 ## Official links
 
