@@ -8,6 +8,12 @@ After posing a question, users can select AI personas for the discussion. These 
 
 The process includes independent views and cross-discussion, preserving agreement, disagreement and uncertainty.
 
+## Specialist Agents and cross-checking
+
+An event simulation can divide research across event context, on-chain activity, market structure, sentiment, macro conditions, risk and quantitative analysis. A report Agent brings the findings together. Agents exchange information and compare sources, retaining different interpretations and judgment conditions.
+
+![Event Engine: specialist Agents collaborating and cross-checking an event simulation](assets/di_event_engine_agents_en_v2.png)
+
 ## Evidence and process receipts
 
 Citations retain their sources and distinguish facts, inferences and unverified claims. Process receipts and stage records help users review what each step produced and how the research developed into a report.
