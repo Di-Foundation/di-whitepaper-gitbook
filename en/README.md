@@ -1,8 +1,11 @@
-# DI Whitepaper (English Version)
+# DI Whitepaper
 
-Version: v1.0  
-Date: July 2026
+Version: v2.0
 
-This directory contains the official English text and diagrams of the DI Whitepaper.
+Updated: October 11, 2026
 
-[Read in Simplified Chinese](../cn/README.md)
+DI (Decentralized Intelligence) is building a user-owned financial Agent network on a Crypto-native Model. The Data Dashboard, Event Engine and Quant Platform provide the product foundation; Personal Agents and an interconnected network follow the product roadmap.
+
+This edition covers the products, Dynamic Baskets, research evidence and on-chain version proof, DI utility, the business model, roadmap, team and partners.
+
+[Start reading](./01-overview.md) · [Contents](./SUMMARY.md) · [简体中文](../cn/README.md)
