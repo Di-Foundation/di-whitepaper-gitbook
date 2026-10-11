@@ -1,4 +1,5 @@
 import assert from "node:assert/strict"
+import { createHash } from "node:crypto"
 import { access, readFile } from "node:fs/promises"
 import path from "node:path"
 import test from "node:test"
@@ -6,6 +7,17 @@ import test from "node:test"
 import { COPY, DIST, LANGUAGES, ROOT, outputFileForRoute, parseSummary, resolveContentHref } from "../scripts/content.mjs"
 
 const summaries = await Promise.all(LANGUAGES.map(parseSummary))
+
+test("every page declares the official DI favicon and the fallback serves the same asset", async () => {
+  for (const entry of summaries.flat()) {
+    const html = await readFile(outputFileForRoute(entry.route), "utf8")
+    assert.match(html, /<link rel="icon" type="image\/png" sizes="512x512" href="\/favicon\.png\?v=189fe8a99a2d">/, entry.route)
+  }
+  const icon = await readFile(path.join(DIST, "favicon.png"))
+  assert.equal(createHash("sha256").update(icon).digest("hex"), "189fe8a99a2d39b5a51eea20c3ae4b5b940d5eb423ccd693d57d500a6fff6f49")
+  assert.equal(icon.readUInt32BE(16), 512)
+  assert.equal(icon.readUInt32BE(20), 512)
+})
 
 test("both languages retain the v2 landing page and all 17 chapters", () => {
   assert.equal(summaries[0].length, 18)

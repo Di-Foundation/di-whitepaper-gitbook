@@ -56,6 +56,7 @@ for (const document of documents) {
 }
 
 await cp(path.join(ROOT, "assets"), path.join(DIST, "content", "assets"), { recursive: true })
+await cp(path.join(ROOT, "assets", "favicon.png"), path.join(DIST, "favicon.png"))
 for (const language of LANGUAGES) {
   await cp(path.join(ROOT, language, "assets"), path.join(DIST, "content", language, "assets"), { recursive: true })
 }
@@ -130,6 +131,7 @@ function renderDocument(document, entries) {
   <meta name="color-scheme" content="dark">
   <meta name="description" content="${escapeHtml(description)}">
   <title>${escapeHtml(document.title)} · DI Whitepaper</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png?v=189fe8a99a2d">
   <link rel="stylesheet" href="/site.css">
   <link rel="alternate" hreflang="${document.language === "en" ? "zh-CN" : "en"}" href="${escapeHtml(document.alternateRoute)}">
 </head>
