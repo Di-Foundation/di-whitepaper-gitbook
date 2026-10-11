@@ -1,0 +1,23 @@
+{
+  "name": "di-whitepaper-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/content-contract.test.mjs",
+    "test:e2e": "playwright test",
+    "check": "npm run build && npm test && npm run test:e2e"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "marked": "18.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

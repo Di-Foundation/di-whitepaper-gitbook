@@ -16,5 +16,5 @@
   * [13. DI Token Utility](13-di-token.md)
   * [14. Business Model](14-business-model.md)
   * [15. Product Roadmap](15-roadmap.md)
-  * [16. Team, Governance & Partners](16-team.md)
+  * [16. Investors & Partners](16-partners.md)
   * [17. Risks & Usage Notice](17-risks.md)

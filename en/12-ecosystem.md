@@ -16,7 +16,7 @@ Contribution assessment considers relevance, source quality and practical use.
 
 ## The role of computing resources
 
-Computing resources support data processing, model calls, multi-perspective research and strategy analysis. The team’s experience operating computing centers in China and Southeast Asia provides relevant operational background.
+Computing resources support data processing, model calls, multi-perspective research and strategy analysis.
 
 ## Extension directions
 

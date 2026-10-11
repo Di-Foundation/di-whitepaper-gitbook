@@ -16,5 +16,5 @@
   * [13. DI Token 用途](13-di-token.md)
   * [14. 商业模式](14-business-model.md)
   * [15. 产品发展 Roadmap](15-roadmap.md)
-  * [16. 团队、治理与合作伙伴](16-team.md)
+  * [16. 投资机构与合作伙伴](16-partners.md)
   * [17. 风险与使用说明](17-risks.md)
