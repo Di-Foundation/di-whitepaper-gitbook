@@ -4,15 +4,13 @@ DI’s financial Agent network connects Agents serving different users. Its valu
 
 ## Information exchange
 
-A market event discovered by one Agent can become a research lead for another. Shared information needs its source, timing and context so that the receiving Agent can assess its relevance to the task.
-
-Agreement between Agents does not establish that a conclusion is correct. The network still faces source quality, duplicated information and mutually reinforcing views.
+A market event discovered by one Agent can become a research lead for another. Shared information will carry its source, timing and context so the receiving Agent can assess its relevance to the task.
 
 ## Capability calls
 
 Agents will be able to call data, research or strategy capabilities provided by other Agents. They need not perform identical work; their capabilities can complement one another.
 
-This extends product capabilities into a broader set of tasks. A call is useful when the returned result helps the requesting Agent continue its work, rather than simply increasing the number of participating Agents.
+This extends product capabilities into a broader set of tasks. Results from other Agents can help the requesting Agent continue its research and work.
 
 ## Working together
 
@@ -33,6 +31,6 @@ flowchart LR
 
 DI will establish the first network with **seed users from 2,000 founding NFTs**. The initial focus is to make communication, capability calls and collaboration useful in real tasks before expanding further.
 
-The figure describes founding NFTs, not a count of unique users, running Agents or network activity. The first network is a development stage after Personal Agents.
+The first network will follow the Personal Agent stage.
 
-Interconnection does not require exposing all user information. Sharing and task calls should follow user authorization, with clear boundaries between private research and shareable results.
+Information sharing and task calls will follow user authorization, with boundaries between private research and shareable results.

@@ -20,9 +20,9 @@ A task can combine several capabilities or use just one. The Personal Agent orga
 
 ## Preferences and permissions
 
-A Personal Agent should work within the scope chosen by its user. Monitoring information, conducting research and taking actions involving assets have different consequences and require appropriate task boundaries and permissions.
+Personal Agents will work within the user’s chosen task scope. Monitoring, research and actions involving assets will follow their respective permissions.
 
-This whitepaper describes Personal Agents as an interface for authorized tasks. It does not assume unlimited automated trading permissions or prescribe a custody model. Available tools and actions depend on the product functionality and authorization interface.
+Users will select available tools and permitted actions through the authorization interface.
 
 ## Connecting to the network
 

@@ -13,16 +13,14 @@ As of October 11, 2026, DI’s source coverage includes **8,000+ X accounts** an
 | Social perspectives | Comparing narratives, expression and disagreements |
 | On-chain and asset-related information | Adding context for market behavior and strategy research |
 
-Source coverage, cumulative content volume and model training data volume are different measures. Account counts do not represent unique users. Sources have different update cycles; real-time market data does not imply that every historical record or social source updates at the same frequency.
+Market, news and social sources follow their respective update cycles, supporting market discovery and ongoing monitoring.
 
 ## Turning material into useful context
 
-The data and model foundation helps products connect information to a research subject. For event research, relevant material should explain the background, support arguments and expose disagreements. For strategy research, it should help clarify relationships between variables, assumptions and results.
+The data and model foundation connects information to a research subject. Event research examines background, evidence and disagreements; strategy research examines relationships between variables, assumptions and results.
 
 Sources remain essential to assessment. A generated explanation cannot replace the original evidence or turn an unverified claim into a fact.
 
 ## Products and compute
 
-Data and models support the dashboard, simulations and quant tools. Computing resources support processing, model calls and research tasks, but compute scale alone does not establish research quality.
-
-This whitepaper does not infer model parameter counts, accuracy or returns from data volume. Model implementation, data permissions, update scope and service performance depend on the relevant technical and product disclosures.
+Data and models support the dashboard, simulations and quant tools. Computing resources support processing, model calls and research tasks.

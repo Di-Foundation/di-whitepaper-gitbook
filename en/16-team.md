@@ -34,7 +34,7 @@ Associate Professor in the Department of Media and Communication at CityUHK, and
 
 ## Investors & partners
 
-DI’s investors and partners include **OKX Ventures, Draper Dragon, Lingfeng Capital, City University of Hong Kong (CityUHK) and DePINX**. They participate through their respective investment or collaboration relationships and do not all hold the same role.
+DI’s investors and partners include **OKX Ventures, Draper Dragon, Lingfeng Capital, City University of Hong Kong (CityUHK) and DePINX**.
 
 ## Public references
 

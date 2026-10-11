@@ -20,9 +20,9 @@ After product launch, DI will connect these capabilities through Personal Agents
 
 The next stage will establish the first Agent network with seed users from 2,000 founding NFTs. Agents belonging to different users will exchange information, call capabilities and collaborate on tasks. DI’s long-term goal is to connect each user’s Agent team to data, research and strategies across the network.
 
-## Scope of this edition
+## Product development stage
 
-This whitepaper explains DI’s product architecture, development path, contribution records and business model. Product development is complete. Product launch, Personal Agents and the first Agent network are distinct subsequent stages. Descriptions of those stages express the development direction and do not mean that network functionality is already available.
+DI has completed product development. Product launch, Personal Agents and the first Agent network follow in sequence, with Agent and network capabilities opening in subsequent roadmap stages.
 
 Updated October 11, 2026.
 

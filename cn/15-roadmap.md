@@ -10,9 +10,9 @@ DI 的发展顺序是：完成产品构建，产品上线后形成个人 Agent�
 
 ## 01 产品构建
 
-数据看板、Event Engine、量化产品与策略创建工具的构建已完成，覆盖信息发现、事件分析和策略创建。产品构建完成与正式上线是两个阶段。
+数据看板、Event Engine、量化产品与策略创建工具的构建已完成，覆盖信息发现、事件分析和策略创建。下一步推进产品正式上线。
 
-这个阶段提供后续 Agent 所需的实际工具能力。不能仅以 Agent 概念替代可供用户使用的产品。
+这一阶段为后续 Agent 提供数据、推演与量化工具基础。
 
 ## 02 形成个人 Agent
 
@@ -24,7 +24,7 @@ DI 的发展顺序是：完成产品构建，产品上线后形成个人 Agent�
 
 以 2,000 个创始 NFT 对应的种子用户建立首个网络，让这些用户的 Agent 交换信息、调用能力和协作完成任务。
 
-创始 NFT 提供种子参与基础；网络的实际价值取决于任务、信息与能力是否形成有效协作。NFT 数量不等于独立用户或已活跃 Agent 数。
+创始 NFT 对应的种子用户将参与初期网络建设，围绕真实任务建立信息交换与能力协作。
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
@@ -34,5 +34,3 @@ flowchart LR
     C --> D["03 首个 Agent 网络"]
     N["2,000 个创始 NFT 对应的种子用户"] --> D
 ```
-
-本路线图以产品依赖和阶段为主，不设置未经披露的具体上线日期。

@@ -14,7 +14,7 @@ DI Token connects product access and service usage. Different activities use dif
 
 Holding DI for dashboard eligibility differs from spending DI on a service. The first is an access condition; the second pays for work provided by a product or Agent.
 
-“Spending DI” in this whitepaper means service payment, not automatic token burning. Personal Agent and network uses will follow their respective product stages; they do not establish that those services are currently available.
+DI pays for the corresponding service; payment and token burning are separate mechanisms. Personal Agent and network payment use cases will open with their respective product stages.
 
 ## Quant profit sharing and buybacks
 
@@ -24,6 +24,6 @@ DI will use a portion of business revenue for token buybacks, connecting product
 
 ## Connection to contributions
 
-DI provides verified contribution rewards and ecosystem co-development mechanisms to support valuable data, research, strategies and product collaboration. Contributions require the applicable validation; holding tokens or submitting a record does not automatically establish a valuable contribution.
+DI provides verified contribution rewards and ecosystem co-development mechanisms to support valuable data, research, strategies and product collaboration. Contribution eligibility is determined through the applicable validation.
 
-This chapter describes utility and mechanisms. Holding thresholds, service prices and product fees depend on the applicable product rules.
+Holding thresholds, service prices and product fees follow the applicable product rules.

@@ -10,9 +10,9 @@ DI’s development sequence is to complete the products, form Personal Agents af
 
 ## 01 Product development
 
-Development of the Data Dashboard, Event Engine, quant products and strategy creation tools is complete, covering discovery, event analysis and strategy creation. Completing development and launching products are separate stages.
+Development of the Data Dashboard, Event Engine, quant products and strategy creation tools is complete, covering discovery, event analysis and strategy creation. Product launch is the next step.
 
-This stage supplies the practical tools that later Agents will use. An Agent concept cannot replace products that users can actually use.
+This stage supplies the data, simulation and quant tools that later Agents will use.
 
 ## 02 Personal Agents
 
@@ -24,7 +24,7 @@ The focus moves from individual operations to ongoing work: retaining research c
 
 Seed users from 2,000 founding NFTs will form the first network. Their Agents will exchange information, call capabilities and collaborate on tasks.
 
-The founding NFTs provide a seed participation base. The network’s practical value depends on useful collaboration around tasks, information and capabilities. NFT counts do not equal unique users or active Agents.
+Seed users from the founding NFTs will participate in early network development, exchanging information and combining capabilities around real tasks.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
@@ -34,5 +34,3 @@ flowchart LR
     C --> D["03 First Agent network"]
     N["Seed users from 2,000 founding NFTs"] --> D
 ```
-
-This roadmap follows product dependencies and stages without assigning undisclosed launch dates.

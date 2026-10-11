@@ -1,35 +1,24 @@
 # DI Whitepaper
 
-Official bilingual content source for the DI Whitepaper.
+DI (Decentralized Intelligence) is building a user-owned financial Agent network. A shared Crypto-native Model connects data discovery, event research and quantitative products, with Personal Agents and an interconnected network forming the next stages.
 
-DI (Decentralized Intelligence) is building a user-owned financial Agent network. A shared Crypto-native Model supports the Data Dashboard, Event Engine and Quant Platform, followed by Personal Agents and an interconnected financial Agent network.
+## Read the whitepaper
 
-## Read
-
-- [English — default](./en/README.md)
+- [English](./en/README.md)
 - [简体中文](./cn/README.md)
 
-Version: v2.0, updated October 11, 2026.
+## Explore DI
 
-## Website integration
+The whitepaper covers the Data Dashboard, Event Engine, Quant Platform, Dynamic Baskets, Personal Agents and financial Agent network, alongside research evidence, on-chain version proof, DI utility, the business model, roadmap and team.
 
-The website is developed separately. Use the ordered chapters in each language’s `SUMMARY.md` as the content source; keep text in Markdown rather than duplicating it inside UI components.
+- [Product Architecture](./en/03-architecture.md)
+- [Product Roadmap](./en/15-roadmap.md)
+- [Team, Governance & Partners](./en/16-team.md)
 
-- `en/`: 17 English chapters and navigation
-- `cn/`: the same 17 chapters in Simplified Chinese
-- `assets/`: shared DI brand assets
-- `docs.yaml`: retained language configuration, with English as default and Chinese at `/zh`
+Version: v2.0. Product and coverage information as of October 11, 2026.
 
-Each language includes seven inline Mermaid diagrams. The reading interface must render Mermaid blocks and resolve local Markdown links to the corresponding chapter routes or section anchors. Existing files under `en/assets/` and `cn/assets/` are legacy diagrams and are not referenced by this edition.
+## Official links
 
-This edition includes DI utility, service spending, quant profit sharing and buybacks. Token allocation percentages and TGE are omitted. Product development is complete; launch, Personal Agents and the first Agent network remain distinct subsequent stages.
-
-Repository updates publish the content source; they do not by themselves verify a deployed website.
-
-## Related repository
-
-- [DI Check-In Contract](https://github.com/Di-Foundation/di-checkin-contract)
-
-## Copyright
+[Website](https://di.xyz/) · [X](https://x.com/Didotxyz_)
 
 Copyright (c) 2026 DI Foundation. All rights reserved.

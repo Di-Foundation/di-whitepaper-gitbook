@@ -10,13 +10,11 @@ DI treats research content, process records and on-chain proof as distinct eleme
 | Process receipts | Stage results and process acknowledgments | Reviewing how the research developed |
 | Version proof | An on-chain record associated with a specific report version | Verifying the relationship between a record and a version |
 
-These records answer different questions. Source truth, process completeness and the existence of a version record cannot substitute for one another.
-
 ## From research to consent-based proof
 
-A user first receives the report and its research records, then chooses whether to authorize contribution and on-chain proof. Consent should refer to a specific report version so that later edits are not confused with an earlier record.
+A user first receives the report and its research records, then chooses whether to authorize contribution and on-chain proof. Consent identifies a specific report version, keeping later edits distinct from the earlier record.
 
-The report and private discussion remain off-chain. The on-chain record contains proof associated with the selected version, with the corresponding transaction or record information available for verification. Submission methods and supported scope depend on the product functionality.
+The report and private discussion remain off-chain. The on-chain record contains proof associated with the selected version, with the corresponding transaction or record information available for verification.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
@@ -29,10 +27,10 @@ flowchart LR
 
 ## Valuable contributions
 
-Contributions can include material valuable to DI’s data, models and products, as well as research, external quant strategies and product collaboration. Verified contribution rewards are for validated contributions. Submitting content, generating a receipt or obtaining a transaction hash does not automatically complete a reward.
+Contributions can include material valuable to DI’s data, models and products, as well as research, external quant strategies and product collaboration. Verified contribution rewards are for validated contributions, with eligibility determined by contribution assessment and applicable rules.
 
-On-chain proof can support verification of a version record. It cannot independently establish contribution quality, source truth or analytical correctness. Contribution assessment also depends on the content and applicable product rules.
+On-chain proof verifies a version record. Contribution assessment considers the content’s value, source quality and applicable product rules.
 
 ## Preserving context
 
-Research sharing should distinguish public content from private user information. Future Agent collaboration should maintain these boundaries so that the network can exchange useful results while retaining permissions and source relationships.
+Research sharing follows user authorization, separating public content from private information. Future Agent collaboration will retain these boundaries, permissions and source relationships when exchanging research results.

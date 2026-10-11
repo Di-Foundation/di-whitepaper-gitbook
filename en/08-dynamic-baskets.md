@@ -4,7 +4,7 @@ Dynamic Baskets are DI index-style quant products. A basket holds a group of ass
 
 ## Product composition
 
-A basket should explain which assets it includes, their weights and the rationale for inclusion. Users are evaluating a portfolio and its rules, rather than only the price movement of an individual asset.
+Users can review a basket’s constituent assets, weights and selection rationale to understand the product’s portfolio rules.
 
 Constituents and weights affect concentration and risk. Holding several assets does not eliminate common exposure, particularly when they respond to the same narrative, liquidity conditions or market sentiment.
 
@@ -12,7 +12,7 @@ Constituents and weights affect concentration and risk. Holding several assets d
 
 Dynamic Baskets rebalance according to their strategy rules and retain records of each adjustment. These records help users understand how the current composition was formed and how the product changed over time.
 
-“Periodic” means adjustments follow the product’s rules. It does not imply a fixed weekly schedule for every product or the ability to avoid volatility and transaction costs. The applicable conditions and frequency belong in each product’s description.
+Each product’s strategy rules determine its rebalancing conditions and frequency.
 
 ## Performance and risk
 
@@ -22,6 +22,4 @@ Meme assets can experience substantial volatility, liquidity changes and concent
 
 ## Offering capacity
 
-**DI special quant products are capped at US$1 million per offering.** This applies to DI special quant products, rather than imposing a universal cap on all user-created products. It is not a disclosure of funds raised or assets under management.
-
-Interface examples of constituents, weights, prices and rebalances illustrate the product design. Actual rules and records depend on the published product.
+**DI special quant products are capped at US$1 million per offering.** Capacity for user-created products follows each product’s rules.

@@ -10,12 +10,12 @@ Context is easily lost between these steps. Original evidence, disagreements, th
 
 ## Connecting three kinds of work
 
-The Data Dashboard supports discovery and monitoring. Event Engine develops a question through multiple perspectives. The Quant Platform provides tools for strategy creation and product use. Their connection keeps the context of a question intact; it does not mean that every news item should automatically become a trade.
+The Data Dashboard supports discovery and monitoring. Event Engine develops a question through multiple perspectives. The Quant Platform provides tools for strategy creation and product use. Their connection preserves the context of a question as users move from discovery to research and strategy validation.
 
 For example, a user following changes in flows around an asset category can examine market data and reporting, explore alternative scenarios, and then decide whether a strategy needs testing. A valid research outcome may also be continued observation or a revised assumption.
 
 ## Capabilities that stay with the user
 
-A Personal Agent is intended to support the same user over time. It needs to work with what that user follows, which tasks are permitted and which changes warrant renewed research.
+A Personal Agent is intended to support the same user over time. It will use the user’s interests and task permissions to follow changes that warrant renewed research.
 
 As Agents become connected, a lead discovered by one can inform another’s research. A strategy or analytical capability can also support tasks elsewhere in the network. This moves financial research from isolated tool use toward ongoing collaboration under user authorization.

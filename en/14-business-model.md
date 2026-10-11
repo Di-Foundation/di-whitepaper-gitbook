@@ -6,9 +6,9 @@ DI’s business model generates service revenue through product usage and adds r
 
 Event Engine simulations, Personal Agent tasks and tool calls, and network services and collaborative tasks create service-payment use cases. These revenue sources develop as the corresponding products and service stages become available.
 
-Quant products provide another source: the platform receives an agreed share of product profits. Unlike a fixed service fee, profit sharing depends on product performance and the applicable agreement. Offering capacity alone cannot be used to calculate revenue.
+Quant products provide another source: the platform receives an agreed share of product profits. Profit sharing depends on product performance and the applicable agreement.
 
-Dashboard holding requirements are an access mechanism. The total value of DI held by eligible users is not platform revenue.
+Holding DI provides dashboard access; business revenue comes from service payments and quant product profit sharing.
 
 ## Product usage and buybacks
 
@@ -24,10 +24,6 @@ flowchart LR
 
 This mechanism connects demand for products with business revenue. Continued usefulness, users’ willingness to use services and the ability of quant products to generate shareable profits affect that revenue.
 
-## Stages and disclosure
+## Revenue use cases across product stages
 
-The current focus is completed product development and subsequent launch. Personal Agent and network revenue use cases depend on delivery of those stages and are not presented as existing revenue.
-
-This whitepaper describes revenue structure without asserting undisclosed revenue, buyback volumes or earnings forecasts. Demonstration figures for product capacity and returns are not evidence of business revenue.
-
-As operations develop, service usage, product performance and actual buybacks should be disclosed separately. Transaction counts, campaign participation and source coverage should not be treated as revenue.
+DI has completed product development and is preparing for launch. Simulations and quant products form the initial business foundation; Personal Agents and the network will add payment use cases for tasks, tool calls and collaborative services.

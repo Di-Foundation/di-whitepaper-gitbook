@@ -10,9 +10,9 @@ Content volume or discussion intensity is not a conclusion on its own. Reporting
 
 ## Keeping sources accessible
 
-News and social content should lead back to the original material. Users can observe aggregated changes and examine individual reports or views to assess relevance, new evidence and disagreement.
+News and social content retain links to the original material. Users can observe aggregated changes and examine individual reports or views to assess relevance, new evidence and disagreement.
 
-Ongoing monitoring involves more than repeatedly displaying an item. Later information about the same asset or event can support, revise or weaken an earlier judgment.
+As monitoring continues, new information about the same asset or event can support, revise or weaken an earlier judgment.
 
 ## Connecting to research and strategies
 

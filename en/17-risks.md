@@ -18,7 +18,7 @@ The Meme assets in Dynamic Baskets can carry substantial price and liquidity ris
 
 Personal Agents and the network depend on available tools, data and services. External outages, inaccurate information or misunderstandings of permissions can affect task results.
 
-Tasks involving private information or asset actions should follow user authorization and actual product rules. Network information sharing does not mean all research content becomes public by default.
+Tasks involving private information or asset actions are limited by user authorization and product rules. Research remains private unless the user authorizes sharing.
 
 ## Proof and tokens
 
@@ -30,6 +30,6 @@ DI Token is exposed to market price and liquidity risks. Revenue and buybacks de
 
 This whitepaper introduces DI’s products, direction and mechanisms. It is not investment advice or a promise of returns. Available functionality, individual product descriptions and applicable terms govern actual use.
 
-As of this edition, product development is complete; Personal Agents and the first network follow the roadmap. Illustrative interfaces, future uses and conceptual diagrams are not actual performance, available functionality or completed on-chain actions.
+DI has completed product development. Personal Agents and the first network will follow the roadmap; feature availability depends on the services formally opened to users.
 
 Official information: [di.xyz](https://di.xyz/) · [DI official X](https://x.com/Didotxyz_).

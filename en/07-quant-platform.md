@@ -4,15 +4,15 @@ DI’s Quant Platform connects strategy research, product creation and product u
 
 ## DI quant products
 
-Users can examine a DI product’s strategy, performance and risks before deciding whether it fits their needs. Dynamic Baskets are one product category; the platform is not limited to a single strategy.
+Users can examine a DI product’s strategy, performance and risks before deciding whether it fits their needs. Dynamic Baskets are one product category.
 
-Product descriptions should distinguish objectives, rules and actual performance. An objective is not an achieved track record, and historical results do not establish future outcomes.
+Product information covers strategy objectives, rules and performance, allowing users to assess a product in its market context.
 
 ## User creation and publication
 
 Strategy creation tools help users express ideas as rules that can be researched and tested. Creators can examine data, variables and strategy conditions before presenting a product that others can understand and use.
 
-A published product needs more than a return figure. Users need to understand what the strategy does, the conditions it relies on and the risks it faces. Creators also need to observe performance over time and explain how results relate to the rules.
+Creators present their products through strategy descriptions, applicable conditions and risk information, and monitor performance over time. Users can review this information to understand a strategy and assess whether it fits their needs.
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"primaryColor": "#17140f", "primaryTextColor": "#eee9d9", "primaryBorderColor": "#b59658", "lineColor": "#b59658", "secondaryColor": "#211c12", "tertiaryColor": "#17140f", "edgeLabelBackground": "#17140f", "fontFamily": "Arial, sans-serif"}}}%%
@@ -28,7 +28,7 @@ flowchart LR
 
 The marketplace brings together products from DI and other creators. Users can review strategy descriptions, performance and risks before choosing a product. The platform’s value comes from its own products and from enabling more strategies to become usable products.
 
-The platform receives an agreed share of quant product profits. Participation, fees and usage conditions depend on the individual product. This whitepaper sets no universal return target and does not treat illustrative interface data as actual performance.
+The platform receives an agreed share of quant product profits. Participation, fees and usage conditions depend on the individual product.
 
 ## Connecting research and strategies
 

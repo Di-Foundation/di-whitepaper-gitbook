@@ -34,7 +34,7 @@ ERC-721 主要作者、以太坊核心开发者，被称为“NFT 之父”。
 
 ## 投资机构与合作伙伴
 
-DI 的投资机构与合作伙伴包括 **OKX Ventures、Draper Dragon、领沨资本（Lingfeng Capital）、香港城市大学（CityUHK）与 DePINX**。这些机构以各自的投资或合作关系参与，不表示它们承担相同角色。
+DI 的投资机构与合作伙伴包括 **OKX Ventures、Draper Dragon、领沨资本（Lingfeng Capital）、香港城市大学（CityUHK）与 DePINX**。
 
 ## 公开资料
 
